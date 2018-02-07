@@ -1,10 +1,12 @@
 MD_CAPABILITIES = sorted([
     "SUBSCRIBE",
-    "SANE_ORDER_BOOK",
-    "PUB_QUOTES",
+    "PUB_SANE_ORDER_BOOK",
+    "PUB_BBA_QUOTES",
     "PUB_ORDER_BOOK_POSITIONS",
     "PUB_TRADES",
-    "ORDER_BOOK_INCREMENTAL",
+    "PUB_ORDER_BOOK_INCREMENTAL",
+    "GET_TICKER_INFO_PRICE_TICK_SIZE",
+    # TODO: variable tick size reporting can be added?
 ])
 
 MD_AVAILABLE_QUOTES = {
